@@ -13,9 +13,9 @@ use OpenSDK\MeiTuan\Requests\MeituanOrdersQueryGetRequest;
 class MeituanOrdersQueryGetRequestTest
 {
 
-    private $appKey = 'bc4ec48acd2b9d01136778f3734e3443529';
+    private $appKey = 'bc4ec48acd2b9d01136778f373';
 
-    private $appSecret = 'd7f10683a67ea46d';
+    private $appSecret = 'd7f10683a67';
 
     private $url = 'https://runion.meituan.com';
 
@@ -29,7 +29,7 @@ class MeituanOrdersQueryGetRequestTest
 
         $oid = '';
         $req->setOid($oid);
-        $req->setSid('326c433346a4760ef5e2817b84de0b4f');
+        $req->setSid('326c433346a4760ef5e2817b8');
         $req->setType(4);
 
         $c->execute($req);
