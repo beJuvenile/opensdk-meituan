@@ -21,7 +21,7 @@ $oid = '';
 //订单id
 $req->setOid($oid);
 //平台唯一标识
-$req->setSid('326c433346a4760ef5e2817b84de0b4f');
+$req->setSid('326c433346a4760ef5e2');
 $req->setType(4);
 
 $c->execute($req);
